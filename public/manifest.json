@@ -1,0 +1,20 @@
+{
+  "name": "Ανθούλα Σωμαρίπα - Κλινική Κοινωνική Λειτουργός",
+  "short_name": "Α. Σωμαρίπα",
+  "description": "Κλινική Κοινωνική Λειτουργός, MSc - Ψυχοκοινωνική Υποστήριξη και Συμβουλευτική - Αθήνα, Αττική",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5F1E8",
+  "theme_color": "#11787e",
+  "orientation": "portrait-primary",
+  "lang": "el",
+  "icons": [
+    {
+      "src": "/images/logo-original.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "medical"]
+}

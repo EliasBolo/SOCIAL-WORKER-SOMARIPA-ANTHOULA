@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 42 33% 96%;
+    --foreground: 0 0% 25%;
+    --card: 40 30% 99%;
+    --card-foreground: 0 0% 25%;
+    --popover: 40 30% 99%;
+    --popover-foreground: 0 0% 25%;
+    --primary: 183 76% 28%;
+    --primary-foreground: 42 33% 96%;
+    --secondary: 42 33% 92%;
+    --secondary-foreground: 0 0% 25%;
+    --muted: 42 20% 92%;
+    --muted-foreground: 0 0% 35%;
+    --accent: 14 88% 95%;
+    --accent-foreground: 14 55% 32%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 42 18% 87%;
+    --input: 42 18% 87%;
+    --ring: 183 76% 28%;
+    --chart-1: 183 76% 28%;
+    --chart-2: 14 88% 67%;
+    --chart-3: 42 33% 70%;
+    --chart-4: 183 50% 45%;
+    --chart-5: 14 60% 55%;
+    --radius: 0.625rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 0 0% 25%;
+    --sidebar-primary: 183 76% 28%;
+    --sidebar-primary-foreground: 42 33% 96%;
+    --sidebar-accent: 14 88% 95%;
+    --sidebar-accent-foreground: 14 60% 38%;
+    --sidebar-border: 42 18% 87%;
+    --sidebar-ring: 183 76% 28%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Optimize touch targets for mobile (WCAG 2.5.5 - 44x44px minimum) */
+@media (pointer: coarse) {
+  a, button {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* WCAG 2.4.7 - Visible focus indicators */
+*:focus-visible {
+  outline: 2px solid hsl(var(--ring));
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Skip to content link */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  padding: 0.75rem 1.5rem;
+  background: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+  border-radius: 0 0 0.5rem 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Accessibility toolbar modes */
+html.a11y-font-large {
+  font-size: 112.5%; /* 18px base */
+}
+
+html.a11y-font-x-large {
+  font-size: 125%; /* 20px base */
+}
+
+html.a11y-high-contrast {
+  --background: 0 0% 100%;
+  --foreground: 0 0% 0%;
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 0%;
+  --muted-foreground: 0 0% 20%;
+  --primary: 183 100% 20%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 0 0% 93%;
+  --secondary-foreground: 0 0% 0%;
+  --accent: 14 100% 93%;
+  --accent-foreground: 14 80% 22%;
+  --border: 0 0% 60%;
+  --input: 0 0% 60%;
+}
+
+html.a11y-highlight-links a {
+  text-decoration: underline !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 3px !important;
+}
+
+html.a11y-reduced-motion,
+html.a11y-reduced-motion * {
+  animation-duration: 0.001ms !important;
+  transition-duration: 0.001ms !important;
+  scroll-behavior: auto !important;
+}
