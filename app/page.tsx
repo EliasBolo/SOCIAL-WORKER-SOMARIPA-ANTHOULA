@@ -16,8 +16,8 @@ export default function Page() {
       <Navigation />
       <main id="main-content">
         <HeroSection />
-        <ExpertiseSection />
         <AboutSection />
+        <ExpertiseSection />
         <ServicesSection />
         <ContactSection />
       </main>
