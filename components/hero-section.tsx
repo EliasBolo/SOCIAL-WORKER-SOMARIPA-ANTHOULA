@@ -21,7 +21,7 @@ export function HeroSection() {
         aria-hidden="true"
       />
       <div
-        className="pointer-events-none absolute inset-0 bg-gradient-to-r from-background/90 via-background/40 to-transparent"
+        className="pointer-events-none absolute inset-0 bg-gradient-to-r from-background/95 via-background/60 to-transparent"
         aria-hidden="true"
       />
       <div className="relative z-10 mx-auto max-w-3xl">
