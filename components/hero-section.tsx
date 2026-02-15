@@ -34,7 +34,7 @@ export function HeroSection() {
         </h1>
 
         <p className="mt-4 text-lg font-medium text-primary sm:text-xl">
-          {t("Κλινική Κοινωνική Λειτουργός, MSc", "Clinical Social Worker, MSc")}
+          {t("Κοινωνική Λειτουργός, MSc", "Clinical Social Worker, MSc")}
         </p>
 
         <p className="mt-1 text-base text-muted-foreground sm:text-lg">
