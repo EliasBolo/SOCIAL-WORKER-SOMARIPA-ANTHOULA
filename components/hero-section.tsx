@@ -29,6 +29,10 @@ export function HeroSection() {
           {t("Κοινωνική Λειτουργός", "Clinical Social Worker")}
         </div>
 
+        <h1 className="text-balance text-4xl font-semibold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
+          {t("Ψυχοκοινωνική Υποστήριξη και Συμβουλευτική", "Psychosocial Support & Counseling")}
+        </h1>
+
         <p className="mt-4 text-lg font-medium text-primary sm:text-xl">
           {t("Κοινωνική Λειτουργός, MSc", "Clinical Social Worker, MSc")}
         </p>
@@ -38,10 +42,6 @@ export function HeroSection() {
         </p>
 
         <div className="mx-auto mt-10 h-px w-16 bg-primary/30" role="presentation" aria-hidden="true" />
-
-        <p className="mt-10 text-pretty text-xl leading-relaxed text-muted-foreground sm:text-2xl">
-          {t("Ψυχοκοινωνική Υποστήριξη και Συμβουλευτική", "Psychosocial Support & Counseling")}
-        </p>
 
         <a
           href="#about"
