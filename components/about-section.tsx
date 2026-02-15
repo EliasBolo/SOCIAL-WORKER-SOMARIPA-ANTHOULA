@@ -75,7 +75,7 @@ export function AboutSection() {
               ))}
             </div>
             <div className="mt-6 text-muted-foreground">
-              <p className="text-sm font-light italic">
+              <p className="text-base font-medium italic">
                 {t(
                   "«Με φρόντίδα, ενσυναίσθηση, σεβασμό και αποδοχή.»",
                   "“With care, empathy, respect, and acceptance.”"
