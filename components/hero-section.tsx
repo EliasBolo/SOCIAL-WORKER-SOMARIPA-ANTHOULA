@@ -30,7 +30,7 @@ export function HeroSection() {
         </div>
 
         <h1 className="text-balance text-4xl font-semibold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-          {t("Ανθούλα Σωμαρίπα", "Anthoula Somaripa")}
+          {t("Ψυχοκοινωνική Υποστήριξη και Συμβουλευτική", "Psychosocial Support & Counseling")}
         </h1>
 
         <p className="mt-4 text-lg font-medium text-primary sm:text-xl">
