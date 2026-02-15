@@ -75,6 +75,17 @@ export function AboutSection() {
                 </span>
               ))}
             </div>
+            <div className="mt-6 text-muted-foreground">
+              <p className="text-sm font-light italic">
+                {t(
+                  "«Με φρόντίδα, ενσυναίσθηση, σεβασμό και αποδοχή.»",
+                  "“With care, empathy, respect, and acceptance.”"
+                )}
+              </p>
+              <p className="mt-3 text-sm font-medium text-foreground">
+                {t("Ανθούλα Σωμαρίπα", "Anthoula Somaripa")}
+              </p>
+            </div>
           </div>
         </div>
       </div>
