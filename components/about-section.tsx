@@ -69,14 +69,11 @@ export function AboutSection() {
                 {
                   el: "MSc - Διαχείριση Γήρανσης & Χρόνιων Νοσημάτων",
                   en: "MSc - Aging & Chronic Conditions Management",
-                  fullWidth: true,
                 },
               ].map((credential) => (
                 <span
                   key={credential.el}
-                  className={`rounded-full bg-accent px-4 py-1.5 text-xs font-medium text-accent-foreground ${
-                    credential.fullWidth ? "basis-full" : ""
-                  }`}
+                  className="rounded-full bg-accent px-4 py-1.5 text-xs font-medium text-accent-foreground"
                 >
                   {t(credential.el, credential.en)}
                 </span>
@@ -85,7 +82,7 @@ export function AboutSection() {
             <div className="mt-6 text-muted-foreground">
               <p className="text-base font-medium italic">
                 {t(
-                  "«Με φρόντίδα, ενσυναίσθηση, σεβασμό και αποδοχή.»",
+                  "«Με φροντίδα, ενσυναίσθηση, σεβασμό και αποδοχή.»",
                   "“With care, empathy, respect, and acceptance.”"
                 )}
               </p>
