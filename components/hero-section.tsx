@@ -16,7 +16,7 @@ export function HeroSection() {
         src="/images/hero-bg.jpg"
         alt=""
         fill
-        className="pointer-events-none object-cover opacity-[0.1]"
+        className="pointer-events-none object-cover opacity-[0.3]"
         loading="lazy"
         aria-hidden="true"
       />
