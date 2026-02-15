@@ -17,12 +17,6 @@ const services = [
     descEn: "Group sessions offering mutual support and sharing of experiences.",
   },
   {
-    el: "Ψυχοεκπαιδευτικά Σεμινάρια",
-    en: "Psychoeducational Seminars",
-    descEl: "Εκπαιδευτικά προγράμματα για την ενίσχυση της ψυχικής υγείας και ευεξίας.",
-    descEn: "Educational programs for enhancing mental health and well-being.",
-  },
-  {
     el: "Κατ' Οίκον Επισκέψεις",
     en: "Home Visits",
     descEl: "Ψυχοκοινωνική υποστήριξη μέσω κατ' οίκον επισκέψεων για άτομα με περιορισμένη κινητικότητα.",
@@ -74,7 +68,7 @@ export function ServicesSection() {
           )}
         </p>
 
-        <div className="mt-16 grid gap-px overflow-hidden rounded-2xl border border-border bg-border sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-16 grid gap-px overflow-hidden rounded-2xl border border-border bg-border sm:grid-cols-2 lg:grid-cols-2">
           {services.map((service, index) => (
             <div
               key={service.el}
