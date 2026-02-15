@@ -34,13 +34,6 @@ const areas = [
     icon: HandHeart,
   },
   {
-    el: "Απώλεια – Πένθος",
-    en: "Loss & Grief",
-    descEl: "Συμβουλευτική υποστήριξη σε περιόδους απώλειας και πένθους",
-    descEn: "Counseling support during periods of loss and bereavement",
-    icon: CloudRain,
-  },
-  {
     el: "Άτομα Μεγαλύτερης Ηλικίας",
     en: "Older Adults",
     descEl: "Ψυχοκοινωνική φροντίδα για άτομα τρίτης ηλικίας",
