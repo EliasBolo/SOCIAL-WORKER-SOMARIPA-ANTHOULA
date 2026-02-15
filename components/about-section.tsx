@@ -63,17 +63,20 @@ export function AboutSection() {
 
             <div className="mt-10 flex flex-wrap gap-3">
               {[
+                { el: "Κοινωνική Λειτουργός", en: "Social Worker" },
+                { el: "Σύμβουλος Ψυχικής Υγείας", en: "Mental Health Counselor" },
+                { el: "Υπεύθυνη Προστασίας Ανηλίκων", en: "Child Protection Officer" },
                 {
                   el: "MSc - Διαχείριση Γήρανσης & Χρόνιων Νοσημάτων",
                   en: "MSc - Aging & Chronic Conditions Management",
+                  fullWidth: true,
                 },
-                { el: "Κοινωνική Λειτουργός", en: "Social Worker" },
-                { el: "Υπεύθυνη Προστασίας Ανηλίκων", en: "Child Protection Officer" },
-                { el: "Σύμβουλος Ψυχικής Υγείας", en: "Mental Health Counselor" },
               ].map((credential) => (
                 <span
                   key={credential.el}
-                  className="rounded-full bg-accent px-4 py-1.5 text-xs font-medium text-accent-foreground"
+                  className={`rounded-full bg-accent px-4 py-1.5 text-xs font-medium text-accent-foreground ${
+                    credential.fullWidth ? "basis-full" : ""
+                  }`}
                 >
                   {t(credential.el, credential.en)}
                 </span>
