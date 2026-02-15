@@ -75,7 +75,7 @@ export function ExpertiseSection() {
           )}
         </p>
 
-        <div className="mt-16 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div className="mt-16 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {areas.map((area) => {
             const Icon = area.icon
             return (
