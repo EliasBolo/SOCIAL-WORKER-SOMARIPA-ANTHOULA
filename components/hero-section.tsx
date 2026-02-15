@@ -26,7 +26,7 @@ export function HeroSection() {
       />
       <div className="relative z-10 mx-auto max-w-3xl">
         <div className="mb-8 inline-block rounded-full bg-accent px-4 py-1.5 text-xs font-medium tracking-wide text-accent-foreground uppercase">
-          {t("Κλινική Κοινωνική Λειτουργός", "Clinical Social Worker")}
+          {t("Κοινωνική Λειτουργός", "Clinical Social Worker")}
         </div>
 
         <h1 className="text-balance text-4xl font-semibold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
