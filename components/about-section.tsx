@@ -64,7 +64,6 @@ export function AboutSection() {
             <div className="mt-10 flex flex-wrap gap-3">
               {[
                 { el: "MSc Κοινωνική Εργασία", en: "MSc Social Work" },
-                { el: "Κλινική Κοινωνική Λειτουργός", en: "Clinical Social Worker" },
                 { el: "Σύμβουλος Ψυχικής Υγείας", en: "Mental Health Counselor" },
               ].map((credential) => (
                 <span
