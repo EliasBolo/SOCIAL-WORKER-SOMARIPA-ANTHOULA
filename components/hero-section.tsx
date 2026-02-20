@@ -67,7 +67,7 @@ export function HeroSection() {
         <button
           type="button"
           onClick={handleSlowScroll}
-          className="group mt-7 inline-flex items-center justify-center text-white/95 transition-colors hover:text-white"
+          className="group mt-16 inline-flex items-center justify-center text-white/95 transition-colors hover:text-white sm:mt-20 lg:mt-24"
           aria-label={t("Μετάβαση στο βιογραφικό", "Go to about section")}
         >
           <ChevronDown className="h-10 w-10 transition-transform group-hover:translate-y-0.5" />
