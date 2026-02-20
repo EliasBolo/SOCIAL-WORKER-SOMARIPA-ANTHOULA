@@ -5,7 +5,7 @@ import { ChevronDown } from "lucide-react"
 import { useLanguage } from "@/lib/language-context"
 
 export function HeroSection() {
-  const { t } = useLanguage()
+  const { language, t } = useLanguage()
 
   function handleSlowScroll() {
     const target = document.querySelector<HTMLElement>("#about")
@@ -59,10 +59,12 @@ export function HeroSection() {
       />
       <div className="relative z-10 mx-auto max-w-3xl -mt-44 sm:-mt-24 md:-mt-6">
         <h1 className="text-balance text-[2.1rem] font-light leading-[1.08] tracking-[0.02em] text-white/95 drop-shadow-[0_4px_14px_rgba(0,0,0,0.5)] sm:text-6xl sm:font-normal sm:tracking-[0.015em] lg:text-7xl">
-          {t("Υπηρεσίες", "Services")}
-          <span className="block">
-            {t("ψυχοκοινωνικής υποστήριξης", "psychosocial support")}
-          </span>
+          {t("Υπηρεσίες", "Psychosocial support services")}
+          {language === "el" && (
+            <span className="block">
+              ψυχοκοινωνικής υποστήριξης
+            </span>
+          )}
         </h1>
         <button
           type="button"
