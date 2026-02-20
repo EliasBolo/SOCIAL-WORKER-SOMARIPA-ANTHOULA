@@ -75,12 +75,12 @@ export function Navigation() {
             />
           </a>
 
-          <ul className="mt-9 grid w-full max-w-sm grid-cols-2 gap-x-6 gap-y-4 text-center" role="list">
+          <ul className="mt-9 grid w-full max-w-sm grid-cols-2 gap-x-4 gap-y-4 text-center" role="list">
             {navItems.map((item) => (
               <li key={item.href}>
                 <a
                   href={item.href}
-                  className="text-3xl leading-none font-semibold uppercase text-white transition-colors hover:text-white/80"
+                  className="text-base leading-tight font-light tracking-[0.04em] uppercase text-white/95 transition-colors hover:text-white/80"
                 >
                   {language === "el" ? item.el : item.en}
                 </a>

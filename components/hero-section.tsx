@@ -57,7 +57,7 @@ export function HeroSection() {
         className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/25 via-black/30 to-black/50"
         aria-hidden="true"
       />
-      <div className="relative z-10 mx-auto max-w-3xl md:-mt-6">
+      <div className="relative z-10 mx-auto max-w-3xl -mt-44 sm:-mt-24 md:-mt-6">
         <h1 className="text-balance text-[2.1rem] font-light leading-[1.08] tracking-[0.02em] text-white/95 drop-shadow-[0_4px_14px_rgba(0,0,0,0.5)] sm:text-6xl sm:font-normal sm:tracking-[0.015em] lg:text-7xl">
           {t("Υπηρεσίες", "Services")}
           <span className="block">

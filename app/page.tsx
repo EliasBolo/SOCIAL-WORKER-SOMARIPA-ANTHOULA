@@ -17,6 +17,11 @@ export default function Page() {
       <main id="main-content">
         <HeroSection />
         <AboutSection />
+        <div className="px-4 sm:px-6" aria-hidden="true">
+          <div className="mx-auto flex max-w-3xl items-center justify-center py-2 sm:py-4">
+            <div className="h-px w-full max-w-2xl bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
+          </div>
+        </div>
         <ExpertiseSection />
         <ServicesSection />
         <ContactSection />
