@@ -10,7 +10,7 @@ export function HeroSection() {
   return (
     <section
       id="home"
-      className="relative flex min-h-[100svh] flex-col items-center justify-end overflow-hidden px-4 pb-16 text-center sm:px-6 sm:pb-20"
+      className="relative flex min-h-[100svh] flex-col items-center justify-end overflow-hidden px-4 pb-16 text-center sm:px-6 sm:pb-20 md:justify-center md:pb-0 md:pt-20"
     >
       <Image
         src="/images/hero-bg.jpg"
@@ -21,15 +21,15 @@ export function HeroSection() {
         aria-hidden="true"
       />
       <div
-        className="pointer-events-none absolute inset-0 bg-black/20 backdrop-blur-[3px]"
+        className="pointer-events-none absolute inset-0 bg-black/20 backdrop-blur-[4px]"
         aria-hidden="true"
       />
       <div
         className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/25 via-black/30 to-black/50"
         aria-hidden="true"
       />
-      <div className="relative z-10 mx-auto max-w-3xl">
-        <h1 className="text-balance text-5xl font-medium leading-[1.05] tracking-tight text-white drop-shadow-[0_4px_14px_rgba(0,0,0,0.5)] sm:text-6xl lg:text-7xl">
+      <div className="relative z-10 mx-auto max-w-3xl md:-mt-6">
+        <h1 className="text-balance text-[2.1rem] font-normal leading-[1.08] tracking-tight text-white/95 drop-shadow-[0_4px_14px_rgba(0,0,0,0.5)] sm:text-6xl sm:font-medium lg:text-7xl">
           {t("Υπηρεσίες", "Services")}
           <span className="block">
             {t("ψυχοκοινωνικής υποστήριξης", "psychosocial support")}
