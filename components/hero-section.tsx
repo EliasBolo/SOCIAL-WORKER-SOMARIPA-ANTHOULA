@@ -7,6 +7,42 @@ import { useLanguage } from "@/lib/language-context"
 export function HeroSection() {
   const { t } = useLanguage()
 
+  function handleSlowScroll(e: React.MouseEvent<HTMLAnchorElement>) {
+    e.preventDefault()
+    const target = document.querySelector<HTMLElement>("#about")
+    if (!target) return
+
+    // Respect reduced-motion preferences by avoiding animated scrolling.
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      target.scrollIntoView({ block: "start" })
+      return
+    }
+
+    const startY = window.scrollY
+    const targetY = target.getBoundingClientRect().top + window.scrollY
+    const distance = targetY - startY
+    const durationMs = 1300
+    let startTime: number | null = null
+
+    const easeInOutCubic = (time: number) =>
+      time < 0.5 ? 4 * time * time * time : 1 - Math.pow(-2 * time + 2, 3) / 2
+
+    const step = (timestamp: number) => {
+      if (startTime === null) startTime = timestamp
+      const elapsed = timestamp - startTime
+      const progress = Math.min(elapsed / durationMs, 1)
+      const easedProgress = easeInOutCubic(progress)
+
+      window.scrollTo(0, startY + distance * easedProgress)
+
+      if (progress < 1) {
+        window.requestAnimationFrame(step)
+      }
+    }
+
+    window.requestAnimationFrame(step)
+  }
+
   return (
     <section
       id="home"
@@ -37,6 +73,7 @@ export function HeroSection() {
         </h1>
         <a
           href="#about"
+          onClick={handleSlowScroll}
           className="group mt-7 inline-flex items-center justify-center text-white/95 transition-colors hover:text-white"
           aria-label={t("Μετάβαση στο βιογραφικό", "Go to about section")}
         >
