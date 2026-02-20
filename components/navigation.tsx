@@ -18,8 +18,26 @@ export function Navigation() {
         className="mx-auto max-w-6xl px-4 pt-6 sm:px-6 sm:pt-8"
         aria-label={t("Κύρια πλοήγηση", "Main navigation")}
       >
-        <div className="hidden md:flex">
-          <div className="flex w-full items-center border-t border-white/65 pt-4">
+        <div className="hidden items-start gap-7 lg:gap-8 md:flex">
+          <a
+            href="#home"
+            className="block rounded-full bg-white/95 p-1.5"
+            aria-label={t("Αρχή σελίδας", "Back to top")}
+          >
+            <div className="flex h-28 w-28 flex-col items-center justify-center rounded-full bg-white/95 px-2 text-center text-[#4a5f7d] lg:h-32 lg:w-32">
+              <p className="text-[13px] leading-tight font-light tracking-[0.01em] lg:text-[14px]">
+                Ανθούλα Σωμαρίπα
+              </p>
+              <p className="mt-1 text-[8px] leading-tight font-light text-[#5a6f8c] lg:text-[8.5px]">
+                Κοινωνική Λειτουργός, Μsc
+              </p>
+              <p className="text-[8px] leading-tight font-light text-[#5a6f8c] lg:text-[8.5px]">
+                Σύμβουλος Ψυχικής Υγείας
+              </p>
+            </div>
+          </a>
+
+          <div className="mt-12 flex w-full items-center border-t border-white/65 pt-4">
             <ul className="ml-auto flex items-center gap-7 lg:gap-8" role="list">
               {navItems.map((item) => (
                 <li key={item.href}>
@@ -46,7 +64,25 @@ export function Navigation() {
         </div>
 
         <div className="flex flex-col items-center md:hidden">
-          <ul className="mt-2 grid w-full max-w-sm grid-cols-2 gap-x-4 gap-y-4 text-center" role="list">
+          <a
+            href="#home"
+            className="rounded-full bg-white/95 p-1.5"
+            aria-label={t("Αρχή σελίδας", "Back to top")}
+          >
+            <div className="flex h-28 w-28 flex-col items-center justify-center rounded-full bg-white/95 px-2 text-center text-[#4a5f7d]">
+              <p className="text-[13px] leading-tight font-light tracking-[0.01em]">
+                Ανθούλα Σωμαρίπα
+              </p>
+              <p className="mt-1 text-[8px] leading-tight font-light text-[#5a6f8c]">
+                Κοινωνική Λειτουργός, Μsc
+              </p>
+              <p className="text-[8px] leading-tight font-light text-[#5a6f8c]">
+                Σύμβουλος Ψυχικής Υγείας
+              </p>
+            </div>
+          </a>
+
+          <ul className="mt-9 grid w-full max-w-sm grid-cols-2 gap-x-4 gap-y-4 text-center" role="list">
             {navItems.map((item) => (
               <li key={item.href}>
                 <a
