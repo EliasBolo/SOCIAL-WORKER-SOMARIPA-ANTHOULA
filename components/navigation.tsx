@@ -25,7 +25,7 @@ export function Navigation() {
             className="block rounded-full bg-white/95 p-[10px] shadow-xl shadow-black/25"
           >
             <Image
-              src="/images/logo-original.png"
+              src="/logo-somaripa.svg"
               alt={t("Ανθούλα Σωμαρίπα - Λογότυπο", "Anthoula Somaripa - Logo")}
               width={140}
               height={140}
@@ -66,7 +66,7 @@ export function Navigation() {
             className="rounded-full bg-white/95 p-[10px] shadow-lg shadow-black/25"
           >
             <Image
-              src="/images/logo-original.png"
+              src="/logo-somaripa.svg"
               alt={t("Ανθούλα Σωμαρίπα - Λογότυπο", "Anthoula Somaripa - Logo")}
               width={140}
               height={140}
