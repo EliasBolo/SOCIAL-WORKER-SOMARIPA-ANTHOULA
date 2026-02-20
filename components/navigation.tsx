@@ -28,7 +28,7 @@ export function Navigation() {
               alt={t("Ανθούλα Σωμαρίπα - Λογότυπο", "Anthoula Somaripa - Logo")}
               width={140}
               height={140}
-              className="h-24 w-24 object-contain lg:h-28 lg:w-28"
+              className="h-24 w-24 rounded-full object-contain lg:h-28 lg:w-28"
             />
           </a>
 
@@ -68,7 +68,7 @@ export function Navigation() {
               alt={t("Ανθούλα Σωμαρίπα - Λογότυπο", "Anthoula Somaripa - Logo")}
               width={140}
               height={140}
-              className="h-24 w-24 object-contain"
+              className="h-24 w-24 rounded-full object-contain"
             />
           </a>
 
