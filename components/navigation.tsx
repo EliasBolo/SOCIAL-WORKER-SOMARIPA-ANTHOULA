@@ -24,8 +24,8 @@ export function Navigation() {
             className="block rounded-full bg-white/95 p-1.5"
             aria-label={t("Αρχή σελίδας", "Back to top")}
           >
-            <div className="flex h-28 w-28 flex-col items-center justify-center rounded-full bg-white/95 px-2 text-center text-[#4a5f7d] lg:h-32 lg:w-32">
-              <p className="text-[13px] leading-tight font-light tracking-[0.01em] lg:text-[14px]">
+            <div className="flex h-[7.5rem] w-[7.5rem] flex-col items-center justify-center rounded-full bg-white/95 px-2 text-center text-[#4a5f7d] lg:h-[8.5rem] lg:w-[8.5rem]">
+              <p className="text-[17px] leading-tight font-light tracking-[0.01em] lg:text-[18px]">
                 Ανθούλα Σωμαρίπα
               </p>
               <p className="mt-1 text-[8px] leading-tight font-light text-[#5a6f8c] lg:text-[8.5px]">
@@ -69,8 +69,8 @@ export function Navigation() {
             className="rounded-full bg-white/95 p-1.5"
             aria-label={t("Αρχή σελίδας", "Back to top")}
           >
-            <div className="flex h-28 w-28 flex-col items-center justify-center rounded-full bg-white/95 px-2 text-center text-[#4a5f7d]">
-              <p className="text-[13px] leading-tight font-light tracking-[0.01em]">
+            <div className="flex h-[7.5rem] w-[7.5rem] flex-col items-center justify-center rounded-full bg-white/95 px-2 text-center text-[#4a5f7d]">
+              <p className="text-[17px] leading-tight font-light tracking-[0.01em]">
                 Ανθούλα Σωμαρίπα
               </p>
               <p className="mt-1 text-[8px] leading-tight font-light text-[#5a6f8c]">
