@@ -1,6 +1,5 @@
 "use client"
 
-import Image from "next/image"
 import { useLanguage } from "@/lib/language-context"
 
 const navItems = [
@@ -24,13 +23,15 @@ export function Navigation() {
             href="#home"
             className="block rounded-full bg-white/95 p-[10px] shadow-xl shadow-black/25"
           >
-            <Image
+            <img
               src="/logo-somaripa.svg"
               alt={t("Ανθούλα Σωμαρίπα - Λογότυπο", "Anthoula Somaripa - Logo")}
               width={140}
               height={140}
               className="h-24 w-24 object-contain lg:h-28 lg:w-28"
-              priority
+              onError={(e) => {
+                e.currentTarget.src = "/images/logo-original.png"
+              }}
             />
           </a>
 
@@ -65,13 +66,15 @@ export function Navigation() {
             href="#home"
             className="rounded-full bg-white/95 p-[10px] shadow-lg shadow-black/25"
           >
-            <Image
+            <img
               src="/logo-somaripa.svg"
               alt={t("Ανθούλα Σωμαρίπα - Λογότυπο", "Anthoula Somaripa - Logo")}
               width={140}
               height={140}
               className="h-24 w-24 object-contain"
-              priority
+              onError={(e) => {
+                e.currentTarget.src = "/images/logo-original.png"
+              }}
             />
           </a>
 
