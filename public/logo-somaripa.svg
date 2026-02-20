@@ -1,126 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="512" y1="80" x2="512" y2="944" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#EEF4F4"/>
-      <stop offset="1" stop-color="#DDE7E7"/>
-    </linearGradient>
-    <linearGradient id="mintGrad" x1="220" y1="340" x2="792" y2="770" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#91C4C0"/>
-      <stop offset="1" stop-color="#84B8B3"/>
+    <linearGradient id="mintGrad" x1="240" y1="340" x2="790" y2="780" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#96C6C2" />
+      <stop offset="1" stop-color="#88BBB6" />
     </linearGradient>
   </defs>
 
-  <circle cx="512" cy="512" r="462" fill="url(#bgGrad)"/>
-  <circle cx="512" cy="512" r="422" stroke="#90C3BE" stroke-width="10"/>
+  <!-- Transparent logo: no background fill shapes -->
+  <circle cx="512" cy="512" r="418" stroke="#92C4BF" stroke-width="9" />
+  <path d="M188 407C194 330 231 273 250 245" stroke="#A5CCC8" stroke-width="4" stroke-linecap="round" />
 
-  <path d="M182 406C188 328 226 270 246 241" stroke="#A4CBC7" stroke-width="4" stroke-linecap="round"/>
-
-  <text x="512" y="360" text-anchor="middle" fill="#445977" font-family="Manrope, Inter, Segoe UI, Arial, sans-serif" font-size="94" font-weight="300" letter-spacing="0.5">
-    ‘½¸¿Í»± £É¼±Á¯À±
+  <text x="512" y="358" text-anchor="middle" fill="#4B607E" font-family="Manrope, Inter, Segoe UI, Arial, sans-serif" font-size="92" font-weight="300" letter-spacing="0.5">
+    &#913;&#957;&#952;&#959;&#973;&#955;&#945; &#931;&#969;&#956;&#945;&#961;&#943;&#960;&#945;
   </text>
 
-  <text x="512" y="470" text-anchor="middle" fill="#43536A" font-family="Manrope, Inter, Segoe UI, Arial, sans-serif" font-size="61" font-weight="400">
-    š¿¹½É½¹º® ›µ¹Ä¿ÅÁ³ÌÂ, Msc
+  <text x="512" y="468" text-anchor="middle" fill="#485C76" font-family="Manrope, Inter, Segoe UI, Arial, sans-serif" font-size="59" font-weight="400">
+    &#922;&#959;&#953;&#957;&#969;&#957;&#953;&#954;&#942; &#923;&#949;&#953;&#964;&#959;&#965;&#961;&#947;&#972;&#962;, Msc
   </text>
 
-  <text x="512" y="540" text-anchor="middle" fill="#43536A" font-family="Manrope, Inter, Segoe UI, Arial, sans-serif" font-size="61" font-weight="400">
-    £Í¼²¿Å»¿Â ¨ÅÇ¹º®Â ¥³µ¯±Â
+  <text x="512" y="537" text-anchor="middle" fill="#485C76" font-family="Manrope, Inter, Segoe UI, Arial, sans-serif" font-size="59" font-weight="400">
+    &#931;&#973;&#956;&#946;&#959;&#965;&#955;&#959;&#962; &#936;&#965;&#967;&#953;&#954;&#942;&#962; &#933;&#947;&#949;&#943;&#945;&#962;
   </text>
 
   <path
-    d="M251 657
-       C308 714 383 728 459 695
-       C506 674 551 668 602 672
-       C643 675 683 664 702 640
-       C711 629 715 617 713 607
-       C709 585 684 584 650 597
-       C623 607 593 620 562 637"
+    d="M255 655
+       C312 712 386 726 460 694
+       C506 674 550 668 600 672
+       C641 675 681 664 700 640
+       C708 630 712 618 710 608
+       C705 586 682 585 648 597
+       C622 607 592 620 562 636"
     stroke="url(#mintGrad)"
     stroke-width="12"
     stroke-linecap="round"
-    stroke-linejoin="round"/>
+    stroke-linejoin="round"
+  />
 
   <path
-    d="M568 639
-       C621 636 680 637 739 622
-       C767 615 781 626 766 640
-       C742 663 702 680 659 680
-       C621 680 589 672 569 662"
+    d="M566 638
+       C620 636 678 637 735 622
+       C763 615 778 625 763 640
+       C740 662 700 679 658 679
+       C620 679 589 672 569 662"
     stroke="url(#mintGrad)"
     stroke-width="9"
     stroke-linecap="round"
-    stroke-linejoin="round"/>
+    stroke-linejoin="round"
+  />
 
   <path
-    d="M251 657
-       C324 732 426 771 546 770
-       C671 770 773 719 859 607"
+    d="M255 655
+       C326 731 427 770 545 769
+       C669 769 770 718 854 608"
     stroke="#8CBFBB"
     stroke-width="11"
     stroke-linecap="round"
-    stroke-linejoin="round"/>
-</svg>
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bgGrad" x1="512" y1="80" x2="512" y2="944" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#EEF4F4"/>
-      <stop offset="1" stop-color="#DDE7E7"/>
-    </linearGradient>
-    <linearGradient id="mintGrad" x1="220" y1="340" x2="792" y2="770" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#91C4C0"/>
-      <stop offset="1" stop-color="#84B8B3"/>
-    </linearGradient>
-  </defs>
-
-  <circle cx="512" cy="512" r="462" fill="url(#bgGrad)"/>
-  <circle cx="512" cy="512" r="422" stroke="#90C3BE" stroke-width="10"/>
-
-  <path d="M182 406C188 328 226 270 246 241" stroke="#A4CBC7" stroke-width="4" stroke-linecap="round"/>
-
-  <text x="512" y="360" text-anchor="middle" fill="#445977" font-family="Manrope, Inter, Segoe UI, Arial, sans-serif" font-size="94" font-weight="300" letter-spacing="0.5">
-    ýýýý{ý ý|ýýýýý
-  </text>
-
-  <text x="512" y="470" text-anchor="middle" fill="#43536A" font-family="Manrope, Inter, Segoe UI, Arial, sans-serif" font-size="61" font-weight="400">
-    ýýýý}ýýý ýýý?ýýýýý, Msc
-  </text>
-
-  <text x="512" y="540" text-anchor="middle" fill="#43536A" font-family="Manrope, Inter, Segoe UI, Arial, sans-serif" font-size="61" font-weight="400">
-    ý|ýý{ýý ýýùýýý ýýýýýý
-  </text>
-
-  <path
-    d="M251 657
-       C308 714 383 728 459 695
-       C506 674 551 668 602 672
-       C643 675 683 664 702 640
-       C711 629 715 617 713 607
-       C709 585 684 584 650 597
-       C623 607 593 620 562 637"
-    stroke="url(#mintGrad)"
-    stroke-width="12"
-    stroke-linecap="round"
-    stroke-linejoin="round"/>
-
-  <path
-    d="M568 639
-       C621 636 680 637 739 622
-       C767 615 781 626 766 640
-       C742 663 702 680 659 680
-       C621 680 589 672 569 662"
-    stroke="url(#mintGrad)"
-    stroke-width="9"
-    stroke-linecap="round"
-    stroke-linejoin="round"/>
-
-  <path
-    d="M251 657
-       C324 732 426 771 546 770
-       C671 770 773 719 859 607"
-    stroke="#8CBFBB"
-    stroke-width="11"
-    stroke-linecap="round"
-    stroke-linejoin="round"/>
+    stroke-linejoin="round"
+  />
 </svg>

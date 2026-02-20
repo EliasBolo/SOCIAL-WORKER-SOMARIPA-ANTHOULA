@@ -29,9 +29,6 @@ export function Navigation() {
               width={140}
               height={140}
               className="h-24 w-24 object-contain lg:h-28 lg:w-28"
-              onError={(e) => {
-                e.currentTarget.src = "/images/logo-original.png"
-              }}
             />
           </a>
 
@@ -72,9 +69,6 @@ export function Navigation() {
               width={140}
               height={140}
               className="h-24 w-24 object-contain"
-              onError={(e) => {
-                e.currentTarget.src = "/images/logo-original.png"
-              }}
             />
           </a>
 
