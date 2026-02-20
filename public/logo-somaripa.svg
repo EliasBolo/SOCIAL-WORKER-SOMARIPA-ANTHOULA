@@ -1,60 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="mintGrad" x1="250" y1="500" x2="820" y2="810" gradientUnits="userSpaceOnUse">
+    <linearGradient id="mintGrad" x1="180" y1="450" x2="860" y2="830" gradientUnits="userSpaceOnUse">
       <stop stop-color="#98C8C3" />
       <stop offset="1" stop-color="#89BDB8" />
     </linearGradient>
   </defs>
 
   <!-- Transparent SVG: only logo artwork, no background shape -->
-  <circle cx="512" cy="512" r="454" stroke="#92C4BF" stroke-width="10" />
+  <circle cx="512" cy="512" r="496" stroke="#92C4BF" stroke-width="8" />
+  <path d="M132 412C146 316 188 248 216 208" stroke="#A6CDC9" stroke-width="6" stroke-linecap="round" />
 
-  <text x="512" y="355" text-anchor="middle" fill="#4A5F7D" font-family="Manrope, Inter, Segoe UI, Arial, sans-serif" font-size="78" font-weight="300" letter-spacing="0.6">
+  <text x="512" y="322" text-anchor="middle" fill="#4A5F7D" font-family="Manrope, Inter, Segoe UI, Arial, sans-serif" font-size="94" font-weight="300" letter-spacing="0.5">
     &#913;&#957;&#952;&#959;&#973;&#955;&#945; &#931;&#969;&#956;&#945;&#961;&#943;&#960;&#945;
   </text>
 
-  <text x="512" y="445" text-anchor="middle" fill="#4A5F7D" font-family="Manrope, Inter, Segoe UI, Arial, sans-serif" font-size="50" font-weight="400">
+  <text x="512" y="430" text-anchor="middle" fill="#4A5F7D" font-family="Manrope, Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="400">
     &#922;&#959;&#953;&#957;&#969;&#957;&#953;&#954;&#942; &#923;&#949;&#953;&#964;&#959;&#965;&#961;&#947;&#972;&#962;, Msc
   </text>
 
-  <text x="512" y="505" text-anchor="middle" fill="#4A5F7D" font-family="Manrope, Inter, Segoe UI, Arial, sans-serif" font-size="50" font-weight="400">
+  <text x="512" y="500" text-anchor="middle" fill="#4A5F7D" font-family="Manrope, Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="400">
     &#931;&#973;&#956;&#946;&#959;&#965;&#955;&#959;&#962; &#936;&#965;&#967;&#953;&#954;&#942;&#962; &#933;&#947;&#949;&#943;&#945;&#962;
   </text>
 
   <!-- Restored hand motif -->
   <path
-    d="M222 610
-       C286 688 380 721 470 683
-       C520 661 567 655 619 661
-       C665 667 710 656 734 627
-       C746 613 751 597 747 583
-       C741 559 715 559 676 575
-       C646 587 611 602 576 624"
+    d="M170 610
+       C251 715 374 760 492 710
+       C553 684 609 677 669 684
+       C722 691 773 679 804 642
+       C819 624 826 604 820 585
+       C812 556 781 555 736 575
+       C700 592 659 610 618 638"
     stroke="url(#mintGrad)"
-    stroke-width="13"
+    stroke-width="16"
     stroke-linecap="round"
     stroke-linejoin="round"
   />
 
   <path
-    d="M577 625
-       C641 620 705 620 768 602
-       C797 594 812 606 797 622
-       C770 650 727 671 680 673
-       C637 674 602 664 581 651"
+    d="M620 639
+       C694 631 765 631 838 610
+       C869 601 884 615 867 633
+       C836 666 786 690 732 693
+       C683 695 643 683 619 666"
     stroke="url(#mintGrad)"
-    stroke-width="9"
+    stroke-width="10"
     stroke-linecap="round"
     stroke-linejoin="round"
   />
 
   <path
-    d="M223 610
-       C312 716 426 765 555 763
-       C689 761 799 706 891 584"
+    d="M170 610
+       C280 747 422 811 581 808
+       C739 804 868 739 968 606"
     stroke="#8EBFBB"
-    stroke-width="12"
+    stroke-width="14"
     stroke-linecap="round"
     stroke-linejoin="round"
   />
