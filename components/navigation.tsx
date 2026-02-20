@@ -18,21 +18,8 @@ export function Navigation() {
         className="mx-auto max-w-6xl px-4 pt-6 sm:px-6 sm:pt-8"
         aria-label={t("Κύρια πλοήγηση", "Main navigation")}
       >
-        <div className="hidden items-start gap-7 lg:gap-8 md:flex">
-          <a
-            href="#home"
-            className="block rounded-full bg-white/95 p-1.5"
-          >
-            <img
-              src="/images/logo-original.png"
-              alt={t("Ανθούλα Σωμαρίπα - Λογότυπο", "Anthoula Somaripa - Logo")}
-              width={140}
-              height={140}
-              className="h-24 w-24 rounded-full object-contain lg:h-28 lg:w-28"
-            />
-          </a>
-
-          <div className="mt-12 flex flex-1 items-center border-t border-white/65 pt-4">
+        <div className="hidden md:flex">
+          <div className="flex w-full items-center border-t border-white/65 pt-4">
             <ul className="ml-auto flex items-center gap-7 lg:gap-8" role="list">
               {navItems.map((item) => (
                 <li key={item.href}>
@@ -59,20 +46,7 @@ export function Navigation() {
         </div>
 
         <div className="flex flex-col items-center md:hidden">
-          <a
-            href="#home"
-            className="rounded-full bg-white/95 p-1.5"
-          >
-            <img
-              src="/images/logo-original.png"
-              alt={t("Ανθούλα Σωμαρίπα - Λογότυπο", "Anthoula Somaripa - Logo")}
-              width={140}
-              height={140}
-              className="h-24 w-24 rounded-full object-contain"
-            />
-          </a>
-
-          <ul className="mt-9 grid w-full max-w-sm grid-cols-2 gap-x-4 gap-y-4 text-center" role="list">
+          <ul className="mt-2 grid w-full max-w-sm grid-cols-2 gap-x-4 gap-y-4 text-center" role="list">
             {navItems.map((item) => (
               <li key={item.href}>
                 <a
