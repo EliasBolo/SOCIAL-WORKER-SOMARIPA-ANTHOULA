@@ -7,21 +7,14 @@ import { useLanguage } from "@/lib/language-context"
 export function HeroSection() {
   const { t } = useLanguage()
 
-  function handleSlowScroll(e: React.MouseEvent<HTMLAnchorElement>) {
-    e.preventDefault()
+  function handleSlowScroll() {
     const target = document.querySelector<HTMLElement>("#about")
     if (!target) return
-
-    // Respect reduced-motion preferences by avoiding animated scrolling.
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      target.scrollIntoView({ block: "start" })
-      return
-    }
 
     const startY = window.scrollY
     const targetY = target.getBoundingClientRect().top + window.scrollY
     const distance = targetY - startY
-    const durationMs = 1300
+    const durationMs = 1800
     let startTime: number | null = null
 
     const easeInOutCubic = (time: number) =>
@@ -33,7 +26,7 @@ export function HeroSection() {
       const progress = Math.min(elapsed / durationMs, 1)
       const easedProgress = easeInOutCubic(progress)
 
-      window.scrollTo(0, startY + distance * easedProgress)
+      window.scrollTo({ top: startY + distance * easedProgress })
 
       if (progress < 1) {
         window.requestAnimationFrame(step)
@@ -65,20 +58,20 @@ export function HeroSection() {
         aria-hidden="true"
       />
       <div className="relative z-10 mx-auto max-w-3xl md:-mt-6">
-        <h1 className="text-balance text-[2.1rem] font-normal leading-[1.08] tracking-tight text-white/95 drop-shadow-[0_4px_14px_rgba(0,0,0,0.5)] sm:text-6xl sm:font-medium lg:text-7xl">
+        <h1 className="text-balance text-[2.1rem] font-light leading-[1.08] tracking-[0.02em] text-white/95 drop-shadow-[0_4px_14px_rgba(0,0,0,0.5)] sm:text-6xl sm:font-normal sm:tracking-[0.015em] lg:text-7xl">
           {t("Υπηρεσίες", "Services")}
           <span className="block">
             {t("ψυχοκοινωνικής υποστήριξης", "psychosocial support")}
           </span>
         </h1>
-        <a
-          href="#about"
+        <button
+          type="button"
           onClick={handleSlowScroll}
           className="group mt-7 inline-flex items-center justify-center text-white/95 transition-colors hover:text-white"
           aria-label={t("Μετάβαση στο βιογραφικό", "Go to about section")}
         >
           <ChevronDown className="h-10 w-10 transition-transform group-hover:translate-y-0.5" />
-        </a>
+        </button>
       </div>
     </section>
   )
