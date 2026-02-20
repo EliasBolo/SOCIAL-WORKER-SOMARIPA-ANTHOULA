@@ -22,7 +22,7 @@ export function Navigation() {
         <div className="hidden items-start gap-7 lg:gap-8 md:flex">
           <a
             href="#home"
-            className="block rounded-full bg-white/95 p-4 shadow-xl shadow-black/25"
+            className="block rounded-full bg-white/95 p-[10px] shadow-xl shadow-black/25"
           >
             <Image
               src="/images/logo-original.png"
@@ -63,7 +63,7 @@ export function Navigation() {
         <div className="flex flex-col items-center md:hidden">
           <a
             href="#home"
-            className="rounded-full bg-white/95 p-4 shadow-lg shadow-black/25"
+            className="rounded-full bg-white/95 p-[10px] shadow-lg shadow-black/25"
           >
             <Image
               src="/images/logo-original.png"
