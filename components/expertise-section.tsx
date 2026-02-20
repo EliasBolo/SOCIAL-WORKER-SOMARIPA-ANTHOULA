@@ -60,7 +60,7 @@ export function ExpertiseSection() {
   const { t } = useLanguage()
 
   return (
-    <section className="px-4 py-16 sm:px-6 sm:py-24" aria-labelledby="expertise-heading">
+    <section id="expertise" className="px-4 py-16 sm:px-6 sm:py-24" aria-labelledby="expertise-heading">
       <div className="mx-auto max-w-6xl">
         <div className="mb-4 text-sm font-medium tracking-wide text-primary uppercase" aria-hidden="true">
           {t("Εξειδίκευση", "Expertise")}
