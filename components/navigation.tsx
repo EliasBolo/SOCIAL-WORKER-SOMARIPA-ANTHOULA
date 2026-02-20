@@ -14,33 +14,33 @@ export function Navigation() {
   const { language, toggleLanguage, t } = useLanguage()
 
   return (
-    <header className="absolute top-0 left-0 right-0 z-40 text-white">
+    <header className="absolute top-0 left-0 right-0 z-50 text-white">
       <nav
-        className="mx-auto max-w-6xl px-4 pt-6 sm:px-6 sm:pt-7"
+        className="mx-auto max-w-6xl px-4 pt-6 sm:px-6 sm:pt-8"
         aria-label={t("Κύρια πλοήγηση", "Main navigation")}
       >
-        <div className="hidden items-start gap-8 md:flex">
+        <div className="hidden items-start gap-7 lg:gap-8 md:flex">
           <a
             href="#home"
-            className="block rounded-full bg-white/95 p-4 shadow-lg shadow-black/20"
+            className="block rounded-full bg-white/95 p-4 shadow-xl shadow-black/25"
           >
             <Image
               src="/images/logo-original.png"
               alt={t("Ανθούλα Σωμαρίπα - Λογότυπο", "Anthoula Somaripa - Logo")}
               width={140}
               height={140}
-              className="h-24 w-24 object-contain sm:h-28 sm:w-28"
+              className="h-24 w-24 object-contain lg:h-28 lg:w-28"
               priority
             />
           </a>
 
-          <div className="mt-12 flex flex-1 items-center border-t border-white/70 pt-4">
-            <ul className="ml-auto flex items-center gap-8" role="list">
+          <div className="mt-12 flex flex-1 items-center border-t border-white/65 pt-4">
+            <ul className="ml-auto flex items-center gap-7 lg:gap-8" role="list">
               {navItems.map((item) => (
                 <li key={item.href}>
                   <a
                     href={item.href}
-                    className="text-xs font-semibold tracking-wide uppercase text-white/90 transition-colors hover:text-white"
+                    className="text-xs font-semibold tracking-[0.08em] uppercase text-white/95 transition-colors hover:text-white"
                   >
                     {language === "el" ? item.el : item.en}
                   </a>
@@ -50,7 +50,7 @@ export function Navigation() {
                 <button
                   type="button"
                   onClick={toggleLanguage}
-                  className="rounded-full border border-white/60 px-3 py-1 text-[11px] font-semibold tracking-wide text-white/90 transition-colors hover:border-white hover:text-white"
+                  className="rounded-full border border-white/60 px-3 py-1 text-[11px] font-semibold tracking-wide text-white/95 transition-colors hover:border-white hover:text-white"
                   aria-label={t("Αλλαγή γλώσσας σε Αγγλικά", "Switch language to Greek")}
                 >
                   {language === "el" ? "EN" : "EL"}
@@ -75,12 +75,12 @@ export function Navigation() {
             />
           </a>
 
-          <ul className="mt-10 grid w-full max-w-xs grid-cols-2 gap-y-5 text-center" role="list">
+          <ul className="mt-9 grid w-full max-w-sm grid-cols-2 gap-x-6 gap-y-4 text-center" role="list">
             {navItems.map((item) => (
               <li key={item.href}>
                 <a
                   href={item.href}
-                  className="text-2xl font-semibold uppercase text-white transition-colors hover:text-white/80"
+                  className="text-3xl leading-none font-semibold uppercase text-white transition-colors hover:text-white/80"
                 >
                   {language === "el" ? item.el : item.en}
                 </a>
@@ -91,13 +91,13 @@ export function Navigation() {
           <button
             type="button"
             onClick={toggleLanguage}
-            className="mt-6 rounded-full border border-white/70 px-3 py-1.5 text-xs font-semibold tracking-wide text-white/95"
+            className="mt-5 rounded-full border border-white/70 px-3 py-1.5 text-xs font-semibold tracking-wide text-white/95"
             aria-label={t("Αλλαγή γλώσσας σε Αγγλικά", "Switch language to Greek")}
           >
             {language === "el" ? "EN" : "EL"}
           </button>
 
-          <div className="mt-4 h-px w-full border-t border-white/70" aria-hidden="true" />
+          <div className="mt-5 h-px w-full border-t border-white/70" aria-hidden="true" />
         </div>
       </nav>
     </header>
