@@ -24,14 +24,14 @@ export function Navigation() {
             className="block rounded-full bg-white/95 p-1.5"
             aria-label={t("Αρχή σελίδας", "Back to top")}
           >
-            <div className="flex h-[7.5rem] w-[7.5rem] flex-col items-center justify-center rounded-full bg-white/95 px-2 text-center text-[#4a5f7d] lg:h-[8.5rem] lg:w-[8.5rem]">
-              <p className="text-[17px] leading-tight font-light tracking-[0.01em] lg:text-[18px]">
+            <div className="flex h-[10.5rem] w-[10.5rem] flex-col items-center justify-center rounded-full bg-white/95 px-3 text-center text-[#4a5f7d] lg:h-[11.5rem] lg:w-[11.5rem]">
+              <p className="text-[25.5px] leading-tight font-light tracking-[0.01em] lg:text-[27px]">
                 Ανθούλα Σωμαρίπα
               </p>
-              <p className="mt-1 text-[8px] leading-tight font-light text-[#5a6f8c] lg:text-[8.5px]">
+              <p className="mt-1.5 text-[12px] leading-tight font-light text-[#5a6f8c] lg:text-[12.75px]">
                 Κοινωνική Λειτουργός, Μsc
               </p>
-              <p className="text-[8px] leading-tight font-light text-[#5a6f8c] lg:text-[8.5px]">
+              <p className="text-[12px] leading-tight font-light text-[#5a6f8c] lg:text-[12.75px]">
                 Σύμβουλος Ψυχικής Υγείας
               </p>
             </div>
@@ -69,14 +69,14 @@ export function Navigation() {
             className="rounded-full bg-white/95 p-1.5"
             aria-label={t("Αρχή σελίδας", "Back to top")}
           >
-            <div className="flex h-[7.5rem] w-[7.5rem] flex-col items-center justify-center rounded-full bg-white/95 px-2 text-center text-[#4a5f7d]">
-              <p className="text-[17px] leading-tight font-light tracking-[0.01em]">
+            <div className="flex h-[10.5rem] w-[10.5rem] flex-col items-center justify-center rounded-full bg-white/95 px-3 text-center text-[#4a5f7d]">
+              <p className="text-[25.5px] leading-tight font-light tracking-[0.01em]">
                 Ανθούλα Σωμαρίπα
               </p>
-              <p className="mt-1 text-[8px] leading-tight font-light text-[#5a6f8c]">
+              <p className="mt-1.5 text-[12px] leading-tight font-light text-[#5a6f8c]">
                 Κοινωνική Λειτουργός, Μsc
               </p>
-              <p className="text-[8px] leading-tight font-light text-[#5a6f8c]">
+              <p className="text-[12px] leading-tight font-light text-[#5a6f8c]">
                 Σύμβουλος Ψυχικής Υγείας
               </p>
             </div>
