@@ -21,7 +21,7 @@ export function Navigation() {
         <div className="hidden items-start gap-7 lg:gap-8 md:flex">
           <a
             href="#home"
-            className="block"
+            className="block overflow-hidden rounded-full"
             aria-label={t("Αρχή σελίδας", "Back to top")}
           >
             <img
@@ -29,7 +29,7 @@ export function Navigation() {
               alt={t("Ανθούλα Σωμαρίπα - Λογότυπο", "Anthoula Somaripa - Logo")}
               width={184}
               height={184}
-              className="h-[10.5rem] w-[10.5rem] object-contain lg:h-[11.5rem] lg:w-[11.5rem]"
+              className="h-[10.5rem] w-[10.5rem] rounded-full object-cover lg:h-[11.5rem] lg:w-[11.5rem]"
             />
           </a>
 
@@ -62,7 +62,7 @@ export function Navigation() {
         <div className="flex flex-col items-center md:hidden">
           <a
             href="#home"
-            className="block"
+            className="block overflow-hidden rounded-full"
             aria-label={t("Αρχή σελίδας", "Back to top")}
           >
             <img
@@ -70,7 +70,7 @@ export function Navigation() {
               alt={t("Ανθούλα Σωμαρίπα - Λογότυπο", "Anthoula Somaripa - Logo")}
               width={184}
               height={184}
-              className="h-[10.5rem] w-[10.5rem] object-contain"
+              className="h-[10.5rem] w-[10.5rem] rounded-full object-cover"
             />
           </a>
 
