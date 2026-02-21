@@ -21,20 +21,16 @@ export function Navigation() {
         <div className="hidden items-start gap-7 lg:gap-8 md:flex">
           <a
             href="#home"
-            className="block rounded-full bg-white/95 p-1.5"
+            className="block"
             aria-label={t("Αρχή σελίδας", "Back to top")}
           >
-            <div className="flex h-[10.5rem] w-[10.5rem] flex-col items-center justify-center rounded-full bg-white/95 px-3 text-center text-[#4a5f7d] lg:h-[11.5rem] lg:w-[11.5rem]">
-              <p className="text-[25.5px] leading-tight font-light tracking-[0.01em] lg:text-[27px]">
-                Ανθούλα Σωμαρίπα
-              </p>
-              <p className="mt-1.5 text-[12px] leading-tight font-light text-[#5a6f8c] lg:text-[12.75px]">
-                Κοινωνική Λειτουργός, Μsc
-              </p>
-              <p className="text-[12px] leading-tight font-light text-[#5a6f8c] lg:text-[12.75px]">
-                Σύμβουλος Ψυχικής Υγείας
-              </p>
-            </div>
+            <img
+              src="/images/logo-original.png"
+              alt={t("Ανθούλα Σωμαρίπα - Λογότυπο", "Anthoula Somaripa - Logo")}
+              width={184}
+              height={184}
+              className="h-[10.5rem] w-[10.5rem] object-contain lg:h-[11.5rem] lg:w-[11.5rem]"
+            />
           </a>
 
           <div className="mt-12 flex w-full items-center border-t border-white/65 pt-4">
@@ -66,20 +62,16 @@ export function Navigation() {
         <div className="flex flex-col items-center md:hidden">
           <a
             href="#home"
-            className="rounded-full bg-white/95 p-1.5"
+            className="block"
             aria-label={t("Αρχή σελίδας", "Back to top")}
           >
-            <div className="flex h-[10.5rem] w-[10.5rem] flex-col items-center justify-center rounded-full bg-white/95 px-3 text-center text-[#4a5f7d]">
-              <p className="text-[25.5px] leading-tight font-light tracking-[0.01em]">
-                Ανθούλα Σωμαρίπα
-              </p>
-              <p className="mt-1.5 text-[12px] leading-tight font-light text-[#5a6f8c]">
-                Κοινωνική Λειτουργός, Μsc
-              </p>
-              <p className="text-[12px] leading-tight font-light text-[#5a6f8c]">
-                Σύμβουλος Ψυχικής Υγείας
-              </p>
-            </div>
+            <img
+              src="/images/logo-original.png"
+              alt={t("Ανθούλα Σωμαρίπα - Λογότυπο", "Anthoula Somaripa - Logo")}
+              width={184}
+              height={184}
+              className="h-[10.5rem] w-[10.5rem] object-contain"
+            />
           </a>
 
           <ul className="mt-9 grid w-full max-w-sm grid-cols-2 gap-x-4 gap-y-4 text-center" role="list">
