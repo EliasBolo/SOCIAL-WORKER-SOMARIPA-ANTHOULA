@@ -7,7 +7,7 @@ export function StructuredData() {
     alternateName: "Anthoula Somaripa - Clinical Social Worker",
     description:
       "Κλινική Κοινωνική Λειτουργός, MSc - Ψυχοκοινωνική Υποστήριξη και Συμβουλευτική στην Αθήνα, Αττική. Clinical Social Worker providing psychosocial support and counseling in Athens, Attica, Greece.",
-    image: "/images/logo-original.png",
+    image: "/images/LOGO.png",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Athens",

@@ -54,8 +54,8 @@ export const metadata: Metadata = {
   authors: [{ name: 'Ανθούλα Σωμαρίπα' }],
   creator: 'Ανθούλα Σωμαρίπα',
   icons: {
-    icon: '/images/logo-original.png',
-    apple: '/images/logo-original.png',
+    icon: '/images/LOGO.png',
+    apple: '/images/LOGO.png',
   },
   openGraph: {
     type: 'website',
@@ -64,13 +64,13 @@ export const metadata: Metadata = {
     siteName: 'Ανθούλα Σωμαρίπα - Κλινική Κοινωνική Λειτουργός',
     title: 'Ανθούλα Σωμαρίπα | Κλινική Κοινωνική Λειτουργός, MSc | Αθήνα',
     description: 'Ψυχοκοινωνική Υποστήριξη και Συμβουλευτική στην Αθήνα, Αττική. Κλινική Κοινωνική Λειτουργός, MSc, Σύμβουλος Ψυχικής Υγείας.',
-    images: [{ url: '/images/logo-original.png', width: 1200, height: 1200, alt: 'Ανθούλα Σωμαρίπα - Κλινική Κοινωνική Λειτουργός' }],
+    images: [{ url: '/images/LOGO.png', width: 1200, height: 1200, alt: 'Ανθούλα Σωμαρίπα - Κλινική Κοινωνική Λειτουργός' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Ανθούλα Σωμαρίπα | Κλινική Κοινωνική Λειτουργός | Αθήνα',
     description: 'Ψυχοκοινωνική Υποστήριξη και Συμβουλευτική - Αθήνα, Αττική',
-    images: ['/images/logo-original.png'],
+    images: ['/images/LOGO.png'],
   },
   alternates: {
     languages: {

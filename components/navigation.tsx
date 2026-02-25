@@ -25,11 +25,11 @@ export function Navigation() {
             aria-label={t("Αρχή σελίδας", "Back to top")}
           >
             <img
-              src="/images/anthoula-logo-final.png"
+              src="/images/LOGO.png"
               alt={t("Ανθούλα Σωμαρίπα - Λογότυπο", "Anthoula Somaripa - Logo")}
               width={184}
               height={184}
-              className="h-[10.5rem] w-[10.5rem] rounded-full object-contain lg:h-[11.5rem] lg:w-[11.5rem]"
+              className="h-[12rem] w-[12rem] rounded-full object-contain lg:h-[13rem] lg:w-[13rem]"
             />
           </a>
 
@@ -66,11 +66,11 @@ export function Navigation() {
             aria-label={t("Αρχή σελίδας", "Back to top")}
           >
             <img
-              src="/images/anthoula-logo-final.png"
+              src="/images/LOGO.png"
               alt={t("Ανθούλα Σωμαρίπα - Λογότυπο", "Anthoula Somaripa - Logo")}
               width={184}
               height={184}
-              className="h-[10.5rem] w-[10.5rem] rounded-full object-contain"
+              className="h-[12rem] w-[12rem] rounded-full object-contain"
             />
           </a>
 
